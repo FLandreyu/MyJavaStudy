@@ -3,8 +3,7 @@ package com.OOP;
 public class Student {
 
     private String name;
-    private int age;
-    private char gendar;
+
 
     public Student() {
         // Default constructor
