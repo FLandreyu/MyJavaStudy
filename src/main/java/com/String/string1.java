@@ -30,7 +30,7 @@ public class string1 {
                 if(i == 3){
                     System.out.println("登录失败次数过多，账户已锁定");
                 }else {
-                    System.out.println("请重新输入用户名和密码,你还剩下" + (3 - i) + "次机会");
+                    System.out.println("请重新输入用户名和密码,你还剩下" + (2 - i) + "次机会");
                 }
             }
             sc.close();
