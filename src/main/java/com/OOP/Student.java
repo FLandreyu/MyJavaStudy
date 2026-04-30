@@ -2,20 +2,24 @@ package com.OOP;
 
 public class Student {
 
-    String name;
-    int age;
+    private String name;
+    private int age;
+    private char gendar;
 
     public Student() {
         // Default constructor
     }
 
-    // Parameterized constructor
-    public Student(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
 
     public void Introduce() {
-        System.out.println("Hello, my name is " + name + " and I am " + age + " years old.");
+        System.out.println("Hello, my name is " + name);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
