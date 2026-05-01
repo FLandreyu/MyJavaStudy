@@ -1,4 +1,4 @@
-package com.Work;
+package com.HomeWork;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
