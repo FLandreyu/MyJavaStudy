@@ -1,13 +1,21 @@
 package com.OOP.demo1;
 
 public class Dog extends Pet {
-    
-    public void lookHome(){
-        System.out.println("看家");
+
+    public Dog(String name, int age) {
+        super(name, age);
     }
 
-    public void eat(){
-        System.out.println("吃狗粮");
+    public Dog(String name) {
+        super(name);
     }
-    
+
+    public void lookHome() {
+        System.out.println(getName() + " 看家");
+    }
+
+    @Override
+    public void eat() {
+        System.out.println(getName() + " 吃狗粮");
+    }
 }
